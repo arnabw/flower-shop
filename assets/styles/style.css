@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Common Section */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.common-head-title {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.common-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+.primary-button {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 32.25px;
+    border: none;
+}
+
+.common-word-design {
+    color: #E55473;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Header Section */
+#head {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72.75px;
+}
+
+.head-container .container-column .container-content {
+    width: 100%;
+    max-width: 531px;
+}
+
+.head-container .container-column .container-content .head-title {
+    color: #272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.head-container .container-column .container-content * {
+    margin-bottom: 24px;
+}
+
+.head-container .container-column img {
+    width: 100%;
+    max-width: 476.25px;
+}
