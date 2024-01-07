@@ -51,6 +51,7 @@
 
 /* Header Section */
 #head {
+    padding-top: 37.5px;
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -81,4 +82,118 @@
 .head-container .container-column img {
     width: 100%;
     max-width: 476.25px;
+}
+
+/* Featured Section */
+#featured {
+    padding-top: 133.5px;
+    padding-bottom: 96px;
+}
+
+.container .featured-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .featured-content * {
+    margin-bottom: 18px;
+}
+
+.container .featured-content .featured-description {
+    width: 100%;
+    max-width: 445.5px;
+}
+
+.container .featured-display {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.container .featured-display .display-flower {
+    width: 100%;
+    max-width: 348px;
+    text-align: center;
+}
+
+.container .featured-display .display-flower .display-flower-img1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 403.5px;
+}
+
+.container .featured-display .display-flower .display-flower-img1 img {
+    width: 100%;
+    max-width: 232.5px;
+    height: 100%;
+    max-height: 321px;
+    padding: 82.5px 58.5px 0 57px;
+}
+
+.container .featured-display .display-flower .display-flower-img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 403.5px;
+}
+
+.container .featured-display .display-flower .display-flower-img2 img {
+    width: 100%;
+    max-width: 232.5px;
+    height: 100%;
+    max-height: 277.5px;
+    padding: 87.75px 35.25px 38.25px;
+}
+
+.container .featured-display .display-flower .display-flower-img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 403.5px;
+}
+
+.container .featured-display .display-flower .display-flower-img3 img {
+    width: 100%;
+    max-width: 232.5px;
+    height: 100%;
+    max-height: 353.25px;
+    padding: 50.25px 56.25px 0;
+}
+
+.container .featured-display .display-flower .image-title {
+    margin-top: 24px;
+    color: #272727;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.25px;
+    text-decoration-line: underline;
+}
+
+.container .featured-service {
+    height: 240px;
+    margin-top: 96px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.container .featured-service .service-column .service-description {
+    margin-top: 18px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26.25px;
+}
+
+/* Highlighted Section */
+#highlighted {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
