@@ -246,13 +246,48 @@
     margin: 18px 0 36px;
 }
 
-#instagram .instagram-container .instagram-img{
+#instagram .instagram-container .instagram-img {
     display: flex;
     gap: 18px;
 }
 
-#instagram .instagram-container .instagram-img .img-div img{
+#instagram .instagram-container .instagram-img .img-div img {
     width: 100%;
     max-width: 256px;
     object-fit: cover;
+}
+
+/* Latest Deals */
+#instagram .instagram-container .latest-deals {
+    background-image: url('../images/Rectangle9.png');
+    width: 100%;
+    max-width: 1440px;
+    height: 449px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 6px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.latest-deals .latest-deals-content {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.latest-deals .latest-deals-input {
+    display: flex;
+    gap: 12px;
+}
+
+.latest-deals .latest-deals-input input {
+    width: 525px;
+    border-radius: 6px;
+    background: #FFF;
+    border: none;
+    padding-left: 16px;
 }
