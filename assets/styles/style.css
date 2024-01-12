@@ -197,3 +197,25 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
+#highlighted .highlighted-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#highlighted .highlighted-container .highlighted-content
+{
+    text-align: center;
+}
+
+#highlighted .highlighted-container .highlighted-content p{
+    width: 100%;
+    max-width: 445px;
+    margin: 18px 0 24px;
+}
+
+#highlighted .highlighted-container .highlighted-img img{
+    width: 100%;
+    max-width: 238px;
+    object-fit: cover;
+}
