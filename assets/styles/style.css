@@ -43,10 +43,6 @@
 
 .common-word-design {
     color: #E55473;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
 }
 
 /* Header Section */
@@ -290,4 +286,40 @@
     background: #FFF;
     border: none;
     padding-left: 16px;
+}
+
+/* Footer Section */
+#foot {
+    background: #111010;
+    padding: 96px 0;
+}
+
+#foot .foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#foot .foot-container .foot-head {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#foot .foot-container .foot-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 100%;
+    max-width: 468px;
+    margin: 18px 0 24px;
+}
+
+#foot .foot-container .foot-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
 }
